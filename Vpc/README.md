@@ -32,7 +32,7 @@ resource "aws_subnet" "skills-pub-sub-b" {
   availability_zone       = "ap-northeast-2b"
 
   tags = {
-    Name = "skills-pub-sub-b",
+    Name = "skills-pub-sub-b"
   }
 }
 ```
@@ -71,7 +71,7 @@ resource "aws_subnet" "skills-private-a" {
   availability_zone       = "ap-northeast-2a"
 
   tags = {
-    Name = "skills-private-a",
+    Name = "skills-private-a"
   }
 }
 
@@ -81,7 +81,7 @@ resource "aws_subnet" "skills-private-b" {
   availability_zone       = "ap-northeast-2b"
 
   tags = {
-    Name = "skills-private-b",
+    Name = "skills-private-b"
   }
 }
 ```
